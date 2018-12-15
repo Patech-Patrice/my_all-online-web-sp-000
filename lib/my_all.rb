@@ -11,7 +11,7 @@ i = 0
   if block_return_values.include?(false) #returns false when the block condition is not met
     false
   else
-    true
+    true #returns true when the block condition is met
   end
 end
 
