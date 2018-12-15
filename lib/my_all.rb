@@ -8,7 +8,7 @@ i = 0
     i = i + 1
   end
  
-  if block_return_values.include?(false)
+  if block_return_values.include?(false) #returns false when the block condition is not met
     false
   else
     true
